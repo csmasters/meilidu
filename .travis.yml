@@ -28,8 +28,8 @@ install:
 
 # Notice: Replace 'YOUR NAME' and 'YOUR EMAIL'
 before_script:
-- git config --global user.name 'Travis'
-- git config --global user.email 'travis@no-email.com'
+- git config --global user.name 'csmasters'
+- git config --global user.email 'dxy549123583@163.com'
 
 script:
 - mkdir .theme
