@@ -31,6 +31,7 @@ before_script:
 - git config --global user.name 'csmasters'
 - git config --global user.email 'dxy549123583@163.com'
 
+
 script:
 - mkdir .theme
 - TARGETDIR='.theme';for file in *;do test "$file" != "$TARGETDIR" && cp -r "$file" "$TARGETDIR/";done #create a folder with theme in it
